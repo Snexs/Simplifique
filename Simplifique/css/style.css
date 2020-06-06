@@ -1,0 +1,20 @@
+.navbar-brand{
+    position: relative;
+}
+
+.form-inline{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.form-control-1{
+    padding: 5px 250px;
+    border: 25px;
+}
+
+.btn btn-search{
+    border: 10px;
+    margin: 10px;
+}
