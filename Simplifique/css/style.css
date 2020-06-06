@@ -2,59 +2,130 @@ body{
     background-color:#676464 ;
 }
 
-.navbar-brand{
-    position: relative;
-    border: 5px black;
-    border-style: dotted;
-    width: 180px;
-    height: 180px;
-    text-align: center;
+.navbar{
+    background-color: #ECF232;
+    height: 110px;
+    width: 100%;
+}
+
+.container-fluid{
+    width: auto;
+    display: flex;
+    height: 100%;
+    max-height: 190px;
+}
+
+.navbar-nav{
+    height: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-item{
+    display: flex;   
+    border-style: none;
+    list-style: none;
+    align-items: center;
 }
 
 .form-inline{
-    position: relative;
-    text-align: left;
-    justify-content: center;
-    margin-left: 10px;
-    
+    display: flex;
+    margin-left: 50px;
+    height: auto;
 }
 
-.form-control-1{
-    font-size: 17px;
-    text-align: left;
-    padding: 5px 250px;
+.navbar-brand{
+    position: left;
+    border: 5px black;
+    border-style: dotted;
+    max-width: 250px;
+    max-height: 180px;
+    width: 180px;
+    text-align: center;
+}
+
+.form-searchbar{
+    margin-top: 10px;
+    max-height: 35px;
+    max-width: 900px;
+    min-width: 50px;
+    min-height: 30px;
+    width: 400px;
+    box-sizing: content-box;
     border-style: none;
     border-radius: 10px;
 }
 
 .btn-search{
-    margin: 5px;
-    background-color: purple;
-    padding: 8px 10px;
+    margin-top: 10px;
+    margin-left: 3px;
+    background-color: gray;
+    max-width: 30px;
+    max-height: 30px;
+    width: 30px;
+    height: 30px;
+    min-width: 25px;
+    min-height: 25px;
     border-radius: 10px;
     border-style: none;
+    position: relative;
 }
 
-.navbar{
-    background-color: #ECF232;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 150px;
-}
-
-.nav-links{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-style: none;
-    list-style: none;
-    width: 30%;
-    height: 100%;
-}
-
-.Plan{
+.plan{
     margin-left: 10px;
     color: black;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
 }
+
+.btn-anuncio{
+    color: white;
+    background-color: purple;
+    border-style: none;
+    border-radius: 15px;
+    max-width: 160px;
+    max-height: 50px;
+    min-height: 40px;
+    min-width: 120px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar, .container-fluid{
+        float: right;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    .form-searchbar,.btn-search{
+        width: auto;
+        height: auto;
+        border-style: none;
+        border-radius: 10px;
+    }
+    .navbar-brand{
+        height: auto;
+        width: 100%;
+        float: right;
+        overflow: hidden;
+    }
+    .navbar-items,.nav-item,.btn-anuncio{
+        width: 100%;
+        height: auto;
+        float: right;
+        overflow: hidden;
+    }
+}
+
