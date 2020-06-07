@@ -1,0 +1,15 @@
+Configurar os cads resposivos
+Imagens responsivas nos card
+Ajustar os menus para ser 100% responsivo
+Ajustar cores das letras dos menus
+Ajustar SearchBar
+Desenvolver Logo
+Desenvolver pagina de login
+Desenvolver pagina de cadastro
+Desenvolver pagina de cadastro fornecedor
+Desenvolver pagina de como funciona
+Desenvolver pagina de forma de pagamento
+Desenvolver pagina de Meus anuncios
+Desenvolver pagina de Regioes
+Desenvolver pagina de Seguranca
+Desenvolver pagina de Sobre nós

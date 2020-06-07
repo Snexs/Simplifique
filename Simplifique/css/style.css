@@ -6,13 +6,58 @@ body{
     background-color: #ECF232;
     height: 100px;
     width: 100%;
+    max-height: 300px;
+}
+
+.navbar-1{
+    background-color: #676464;
+    height: 50px;
+    width: 100%;
+    margin-top: -20px;
 }
 
 .container-fluid{
     width: auto;
     display: flex;
     height: 100%;
-    max-height: 250px;
+    max-height: 300px;
+}
+
+.navbar-navigation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.card-columns{
+    width: auto;
+    margin-right: 50px;
+    display: block;
+}
+
+.card{
+    width: 350px;
+}
+
+.card-body{
+    background-color: #676464;
+    color: white;
 }
 
 .navbar-nav{
@@ -41,7 +86,8 @@ body{
 
 .form-inline{
     display: flex;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
     height: auto;
 }
 
@@ -56,16 +102,17 @@ body{
 }
 
 .active-pink input[type=text] {
-    border: 1px solid #f48fb1;
-    background-color: #676464;
+    border: 2px solid #9518BE;
+    background-color: #878787;
     color: white;
+    border-radius: 10px;
+    margin-left: 5px;
     max-height: 35px;
     max-width: 900px;
     min-width: 50px;
     min-height: 30px;
-    width: 550px;
-    border-radius: 10px;
-    margin-left: 5px;
+    display: block;
+    width: 600px;
   }
 
 
@@ -94,7 +141,7 @@ body{
 
 .btn-anuncio{
     color: white;
-    background-color: purple;
+    background-color: #9518BE;
     border-style: none;
     border-radius: 15px;
     max-width: 160px;
@@ -105,34 +152,16 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .navbar, .container-fluid{
+    .navbar, .container-fluid,.navbar-nav,.navbar-items,.nav-item,.btn-anuncio,.navbar-brand{
         height: auto;
         width: 100%;
         display: block;
+        float: none;
     }
     .active-pink input[type=text]{
         width: auto;
-        height: auto;
-        border-style: none;
-        border-radius: 10px;
-        display: block;
-        margin-top: 15px;
-    }
-    .navbar-brand{
-        width: auto;
-        height: auto;
-        display: block;
     }
     .navbar-items,.nav-item,.btn-anuncio{
-        width: 100%;
-        display: block;
-        margin: 5px;
+        margin: 3px;
     }
-    .navbar-nav{
-        height: auto;
-        width: 100%;
-        display: block;
-    }
-    
 }
-
