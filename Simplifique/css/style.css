@@ -53,10 +53,11 @@ body{
 
 .card{
     width: 350px;
+    margin-top: 5px;
 }
 
 .card-body{
-    background-color: #676464;
+    background-color: #878787;
     color: white;
 }
 
@@ -86,7 +87,7 @@ body{
 
 .form-inline{
     display: flex;
-    margin-left: 20px;
+    margin-left: 45px;
     margin-top: 10px;
     height: auto;
 }
@@ -115,6 +116,10 @@ body{
     width: 600px;
   }
 
+.btn-primary{
+    max-width: 150px;
+    min-width: 100px;
+}
 
 .btn-search{
     margin-top: 10px;
