@@ -162,7 +162,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .navbar, .container-fluid,.navbar-nav,.navbar-items,.nav-item,.btn-anuncio,.navbar-brand,.navbar-1,.card{
+    .navbar, .container-fluid,.navbar-nav,.navbar-items,.nav-item,.btn-anuncio,.navbar-brand,.navbar-1,.card.navbar-navigation{
         height: auto;
         width: 100%;
         display: block;

@@ -13,7 +13,7 @@ Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao pa
 Desenvolver Logo
 Desenvolver pagina de login
 Desenvolver pagina de cadastro
-Desenvolver pagina de cadastro fornecedor
+Desenvolver pagina de cadastro fornecedor**
 Desenvolver pagina de como funciona
 Desenvolver pagina de forma de pagamento
 Desenvolver pagina de Meus anuncios
