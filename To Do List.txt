@@ -1,10 +1,15 @@
-Configurar os cads resposivos
+------------------------------------------------------------------------------------------------------------
+Configurar os cards resposivos
 Imagens responsivas nos card
 Ajustar os menus para ser 100% responsivo
 Ajustar cores das letras dos menus
 Ajustar SearchBar
 Ajustar Responsabilidade dos anuncios
 Centralizar botao do card anuncio
+Atualizar tudo pra bootstrap
+Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao para abrir)
+
+---------------------------------------------------------------------------------------------------------
 Desenvolver Logo
 Desenvolver pagina de login
 Desenvolver pagina de cadastro
@@ -15,3 +20,4 @@ Desenvolver pagina de Meus anuncios
 Desenvolver pagina de Regioes
 Desenvolver pagina de Seguranca
 Desenvolver pagina de Sobre nós
+------------------------------------------------------------------------------------------------------------
