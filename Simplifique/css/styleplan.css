@@ -59,6 +59,11 @@
     margin-left: 10x;
 }
 
+.anunciar{
+    text-align: center;
+    color: white;
+}
+
 .navbar-brand{
     border: 5px black;
     border-style: dotted;
