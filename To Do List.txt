@@ -4,6 +4,7 @@ Ajustar os menus para ser 100% responsivo
 Ajustar cores das letras dos menus
 Ajustar SearchBar
 Ajustar Responsabilidade dos anuncios
+Centralizar botao do card anuncio
 Desenvolver Logo
 Desenvolver pagina de login
 Desenvolver pagina de cadastro

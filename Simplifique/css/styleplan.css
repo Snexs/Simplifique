@@ -1,25 +1,7 @@
-body{
-    background-color:#676464 ;
-}
-
 .navbar{
     background-color: #ECF232;
-    height: 100px;
+    height: 70px;
     width: 100%;
-    max-height: 300px;
-}
-
-.navbar-1{
-    background-color: #676464;
-    height: 50px;
-    width: 100%;
-    margin-top: -20px;
-}
-
-.container-fluid{
-    width: auto;
-    display: flex;
-    height: 100%;
     max-height: 300px;
 }
 
@@ -33,31 +15,6 @@ body{
 }
 
 .nav-link{
-    color: white;
-}
-
-.container{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-right: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.card-columns{
-    width: auto;
-    margin-right: 50px;
-    display: block;
-}
-
-.card{
-    width: 350px;
-    margin-top: 5px;
-}
-
-.card-body{
-    background-color: #878787;
     color: white;
 }
 
@@ -90,6 +47,16 @@ body{
     margin-left: 45px;
     margin-top: 10px;
     height: auto;
+}
+
+.p-2{
+    background-color: #9518BE;
+    border-radius: 25px;
+    justify-content: space-around;
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    margin-left: 10x;
 }
 
 .navbar-brand{
