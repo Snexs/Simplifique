@@ -8,16 +8,3 @@ Ajustar Responsabilidade dos anuncios
 Centralizar botao do card anuncio
 Atualizar tudo pra bootstrap
 Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao para abrir)
-
----------------------------------------------------------------------------------------------------------
-Desenvolver Logo
-Desenvolver pagina de login
-Desenvolver pagina de cadastro
-Desenvolver pagina de cadastro fornecedor**
-Desenvolver pagina de como funciona
-Desenvolver pagina de forma de pagamento
-Desenvolver pagina de Meus anuncios
-Desenvolver pagina de Regioes
-Desenvolver pagina de Seguranca
-Desenvolver pagina de Sobre nós
-------------------------------------------------------------------------------------------------------------
