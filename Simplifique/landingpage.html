@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta lang="pt-br">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
@@ -14,32 +13,33 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
         <header>
             <!--Primeiro Menu-->
-                <nav class="navbar navbar-expand-lg fixed-top">
-                    <div class="container-fluid">
-                        <ul class="navbar-nav">
-                            <a class="navbar-brand" href="landingpage.html">Logo</a>
-                            <form class="form-inline active-pink">
-                                <i class="fas fa-search" aria-hidden="true"></i>
-                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                            </form>
-                        </ul>
-                        <ul class="navbar-items">
-                            <li class="nav-item"> 
-                                <i class="fas fa-briefcase fa-2x"></i><a class="Plan" href="planos.html">Planos</a> 
-                            </li>
-                            <li class="nav-item">
-                                <i class="far fa-user fa-2x"></i><a class="plan" href="login.html">Entrar</a> 
-                            </li>
-                            <li class="nav-item">
-                                <button class="btn-anuncio"><a class="anunciar" href="anunciar.html"> Anunciar</a></button>
-                            </li>
-                        </ul>
-                    </div>    
-                </nav>
+            <div class="container-fluid-1">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <a class="navbar-brand" href="landingpage.html">Logo</a>
+                    </div>
+                    <div class="col-xl-5">
+                        <form class="form-inline active-pink">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="col-xl-1">
+                        <i class="fas fa-user fa-2x"></i><a class="plan" href="login.html">Entrar</a> 
+                    </div>
+                    <div class="col-xl-1">
+                        <i class="fas fa-briefcase fa-2x"></i><a class="plan" href="planos.html">Planos</a> 
+                    </div>
+                    <div class="col-xl-2">
+                        <button class="btn-anuncio"><a class="anunciar" href="anunciar.html">Anunciar</a></button>
+                    </div>
+                </div>
+            </div>
             <!--Fim Primeiro Menu-->   
             <!-- Segundo Menu-->
                 <nav class="navbar-1 navbar-expand-xl">
@@ -72,60 +72,104 @@
             <!--Fim Segundo Menu--> 
         </header>
         <!-- inicio anuncios-->
-        <div class="container">
-            <div class="card-columns">
-               <!-- Inicio Cards--> 
-                <div class="card">
-                  <img class="card-img-top" src="img/jardineiro.jpg" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">John Doe</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                        <a href="#" class="btn btn-primary stretched-link">Contratar</a>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="img/jardineiro.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
                   </div>
                 </div>
-                <div class="card" style="width:400px">
-                    <img class="card-img-top" src="img/jardineiro.jpg" style="width:100%">
-                      <div class="card-body">
-                          <h4 class="card-title">John Doe</h4>
-                          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                          <a href="#" class="btn btn-primary stretched-link">Contratar</a>
-                    </div>
-                </div>
-                <div class="card" style="width:400px">
-                    <img class="card-img-top" src="img/jardineiro.jpg" style="width:100%">
-                    <div class="card-body">
-                          <h4 class="card-title">John Doe</h4>
-                          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                          <a href="#" class="btn btn-primary stretched-link">Contratar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/jardineiro.jpg" style="width:100%">
-                      <div class="card-body">
-                          <h4 class="card-title">John Doe</h4>
-                          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                          <a href="#" class="btn btn-primary stretched-link">Contratar</a>
-                    </div>
+              </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="img/jardineiro.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
-                  <div class="card" style="width:400px">
-                      <img class="card-img-top" src="img/jardineiro.jpg" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                            <a href="#" class="btn btn-primary stretched-link">Contratar</a>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="img/jardineiro.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                  <img src="img/jardineiro.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="img/jardineiro.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       </div>
-                  </div>
-                  <div class="card" style="width:400px">
-                      <img class="card-img-top" src="img/jardineiro.jpg" style="width:100%">
-                      <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                            <a href="#" class="btn btn-primary stretched-link">Contratar</a>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                       </div>
+                    </div>
                   </div>
-                <!--Fim Cards-->  
-            </div>    
+                <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="img/jardineiro.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="img/jardineiro.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="img/jardineiro.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                </div>
         </div>
-        <!-- fim anuncios-->
     </body>
 </html>

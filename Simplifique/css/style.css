@@ -1,12 +1,19 @@
 body{
-    background-color:#676464 ;
+    background-color:#878787;
 }
 
-.navbar{
-    background-color: #ECF232;
-    height: 100px;
+.row{
     width: 100%;
-    max-height: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.col-xl-1{
+    margin-top: 13px;
+}
+
+.col-xl-2{
+    margin-top: 6px;
 }
 
 .navbar-1{
@@ -16,11 +23,15 @@ body{
     margin-top: -20px;
 }
 
-.container-fluid{
-    width: auto;
+.row.row-cols-1.row-cols-md-2{
+    justify-content: center;
+}
+
+.container-fluid-1{
+    background-color: #ECF232;
     display: flex;
-    height: 100%;
-    max-height: 300px;
+    min-height: 100px;
+    justify-content: center;
 }
 
 .navbar-navigation{
@@ -36,58 +47,13 @@ body{
     color: white;
 }
 
-.container{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-right: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.card-columns{
-    width: auto;
-    margin-right: 50px;
-    display: block;
-}
-
-.card{
-    width: 350px;
-    margin-top: 5px;
-}
-
 .card-body{
     background-color: #878787;
     color: white;
 }
 
-.navbar-nav{
-    height: auto;
-    width: 80%;
-    display: flex;
-    align-items: center;
-   
-}
-
-.navbar-items{
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: 40%;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.nav-item{
-    display: flex;   
-    border-style: none;
-    list-style: none;
-    align-items: center;
-}
-
 .form-inline{
     display: flex;
-    margin-left: 45px;
     margin-top: 10px;
     height: auto;
 }
@@ -126,27 +92,10 @@ body{
     min-width: 100px;
 }
 
-.btn-search{
-    margin-top: 10px;
-    margin-left: 3px;
-    background-color: gray;
-    max-width: 30px;
-    max-height: 30px;
-    width: 30px;
-    height: 30px;
-    min-width: 25px;
-    min-height: 25px;
-    border-radius: 10px;
-    border-style: none;
-    position: relative;
-}
-
 .plan{
     margin-left: 10px;
     color: black;
     position: relative;
-    text-align: center;
-    margin-top: 5px;
 }
 
 .btn-anuncio{

@@ -21,3 +21,7 @@ Desenvolver pagina de Regioes
 Desenvolver pagina de Seguranca
 Desenvolver pagina de Sobre nós
 ------------------------------------------------------------------------------------------------------------
+Dicas do professor
+primeiro menu fazer com row e col
+procurar na documentacao do bootstrap4 cards para os anuncios
+Agilizar na criacao das paginas
