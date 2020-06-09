@@ -58,14 +58,18 @@ body{
     height: auto;
 }
 
+.logo{
+    max-width:250px;
+    max-height: 50px;
+    width: 100%;
+    height: auto;
+}
+
 .navbar-brand{
-    border: 5px black;
-    border-style: dotted;
     max-width: 250px;
     max-height: 180px;
     width: 250px;
     height: auto;
-    text-align: center;
 }
 
 .active-pink input[type=text] {
@@ -111,7 +115,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .navbar, .container-fluid,.navbar-nav,.navbar-items,.nav-item,.btn-anuncio,.navbar-brand,.navbar-1,.card.navbar-navigation{
+    .navbar, .container-fluid,.navbar-nav,.navbar-items,.nav-item,.btn-anuncio,.navbar-brand,.navbar-1,.card.navbar-navigation,.logo{
         height: auto;
         width: 100%;
         display: block;

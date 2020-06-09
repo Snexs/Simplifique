@@ -10,7 +10,7 @@ Atualizar tudo pra bootstrap
 Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao para abrir)
 
 ---------------------------------------------------------------------------------------------------------
-Desenvolver Logo
+Desenvolver Logo--Meio caminho
 Desenvolver pagina de login
 Desenvolver pagina de cadastro
 Desenvolver pagina de cadastro fornecedor**
