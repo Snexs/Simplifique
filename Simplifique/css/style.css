@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color:#878787;
 }
 
@@ -146,15 +148,6 @@ body{
     color: #9518BE;
 }
 
-::placeholder{
-    color:red;
-    opacity: 1;
-}
-
-::-ms-input-placeholder{
-    color:white;
-}
-
 @media screen and (max-width: 768px) {
     .container-fluid,.container-fluid-1{
         height: auto;
@@ -222,4 +215,29 @@ body{
         height: auto;
         margin-top: -3px;
     }
+    .box{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        position: absolute;
+      }
+}
+
+@media screen and (max-width: 1200px){
+    .box{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,30%);
+        position: absolute;
+      }
+}
+
+@media screen and (max-width: 400px){
+    .box{
+        width: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,00%);
+        position: absolute;
+      }
 }
