@@ -7,8 +7,8 @@
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="js/bootstrap.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,12 +21,12 @@
             <div class="container-fluid-1">
                 <div class="row">
                     <div class="col-xl-3">
-                        <a class="navbar-brand" href="landingpage.html"><img class="logo" src="img/logo.png"></a>
+                        <a class="navbar-brand" href="landingpage.html"><img class="img-fluid" src="img/logo.png"></a>
                     </div>
                     <div class="col-xl-5">
                         <form class="form-inline active-pink">
                             <i class="fas fa-search" aria-hidden="true"></i>
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            <input class="form-control" type="text" placeholder="Pesquisar...">
                         </form>
                     </div>
                     <div class="col-xl-1">
@@ -42,33 +42,37 @@
             </div>
             <!--Fim Primeiro Menu-->   
             <!-- Segundo Menu-->
-                <nav class="navbar-1 navbar-expand-xl">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                        <ul class="navbar-navigation">
-                            <li class="nav-itens">
-                               <a class="nav-link" href="comofunciona.html">Como Funciona ?</a>
-                            </li>
-                            <li class="nav-itens">
-                                <a class="nav-link" href="formadepagamento.html">Forma de Pagamento</a>
-                            </li>
-                            <li class="nav-itens">
-                                <a class="nav-link" href="meusanuncios.html">Meus Anúncios</a>
-                            </li>
-                            <li class="nav-itens">
-                                <a class="nav-link" href="regioes.html">Regiões</a>
-                            </li>
-                            <li class="nav-itens">
-                                <a class="nav-link" href="seguranca.html">Segurança</a>
-                            </li>
-                            <li class="nav-itens">
-                                <a class="nav-link" href="sobrenos.html">Sobre Nós</a>
-                            </li>
-                        </ul>
+             <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"><i class="fas fa-bars fa-2x"></i></span>                     
+                        </button>
                     </div>
-                </nav>
+                  <div class="collapse navbar-collapse" id="myNavbar">   
+                    <ul class="navbar-navigation">
+                          <li class="nav-itens">
+                             <a class="nav-link" href="comofunciona.html">Como Funciona ?</a>
+                          </li>
+                          <li class="nav-itens">
+                              <a class="nav-link" href="formadepagamento.html">Forma de Pagamento</a>
+                          </li>
+                          <li class="nav-itens">
+                              <a class="nav-link" href="meusanuncios.html">Meus Anúncios</a>
+                          </li>
+                          <li class="nav-itens">
+                              <a class="nav-link" href="regioes.html">Regiões</a>
+                          </li>
+                          <li class="nav-itens">
+                              <a class="nav-link" href="seguranca.html">Segurança</a>
+                          </li>
+                          <li class="nav-itens">
+                              <a class="nav-link" href="sobrenos.html">Sobre Nós</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </nav>
             <!--Fim Segundo Menu--> 
         </header>
         <!-- inicio anuncios-->
@@ -77,11 +81,12 @@
                 <div class="card h-100">
                   <img src="img/jardineiro.jpg" class="card-img-top">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Anuncio 1</h5>
+                    <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                    <h4>R$ 00,00</h4>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <button class="btn-saibamais">Saiba Mais...</button>
                   </div>
                 </div>
               </div>
@@ -89,11 +94,12 @@
                 <div class="card h-100">
                   <img src="img/jardineiro.jpg" class="card-img-top">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Anuncio 2</h5>
+                    <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                    <h4>R$ 00,00</h4>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <button class="btn-saibamais">Saiba Mais...</button>
                   </div>
                 </div>
             </div>
@@ -101,11 +107,12 @@
                 <div class="card h-100">
                   <img src="img/jardineiro.jpg" class="card-img-top">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Anuncio 3</h5>
+                    <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                    <h4>R$ 00,00</h4>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <button class="btn-saibamais">Saiba Mais...</button>
                   </div>
                 </div>
             </div>
@@ -113,11 +120,12 @@
                 <div class="card h-100">
                   <img src="img/jardineiro.jpg" class="card-img-top">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Anuncio 4</h5>
+                    <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                    <h4>R$ 00,00</h4>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <button class="btn-saibamais">Saiba Mais...</button>
                   </div>
                 </div>
             </div>
@@ -126,11 +134,12 @@
                     <div class="card h-100">
                       <img src="img/jardineiro.jpg" class="card-img-top">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Anuncio 5</h5>
+                        <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                        <h4>R$ 00,00</h4>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <button class="btn-saibamais">Saiba Mais...</button>
                       </div>
                     </div>
                   </div>
@@ -138,11 +147,12 @@
                     <div class="card h-100">
                       <img src="img/jardineiro.jpg" class="card-img-top">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Anuncio 6</h5>
+                        <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                        <h4>R$ 00,00</h4>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <button class="btn-saibamais">Saiba Mais...</button>
                       </div>
                     </div>
                 </div>
@@ -150,11 +160,12 @@
                     <div class="card h-100">
                       <img src="img/jardineiro.jpg" class="card-img-top">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Anuncio 7</h5>
+                        <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                        <h4>R$ 00,00</h4>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <button class="btn-saibamais">Saiba Mais...</button>
                       </div>
                     </div>
                 </div>
@@ -162,11 +173,12 @@
                     <div class="card h-100">
                       <img src="img/jardineiro.jpg" class="card-img-top">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">Anuncio 8</h5>
+                        <p class="card-text">Esta é uma previa da descrição do anúncio, aqui irá conter as principais informações sobre o anúncio.</p>
+                        <h4>R$ 00,00</h4>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <button class="btn-saibamais">Saiba Mais...</button>
                       </div>
                     </div>
                 </div>

@@ -16,11 +16,35 @@ body{
     margin-top: 6px;
 }
 
-.navbar-1{
+.navbar{
     background-color: #676464;
     height: 50px;
     width: 100%;
     margin-top: -20px;
+    display: block;
+    float: left;
+    border-style: none;
+    border-radius: none;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.card-footer{
+    align-items: center;
+}
+
+.btn-saibamais{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    margin-left: auto;
+    background-color: #9518BE;
+    color: white;
 }
 
 .row.row-cols-1.row-cols-md-2{
@@ -40,7 +64,7 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .nav-link{
@@ -68,7 +92,7 @@ body{
 .navbar-brand{
     max-width: 250px;
     max-height: 180px;
-    width: 250px;
+    width: 100%;
     height: auto;
 }
 
@@ -83,7 +107,7 @@ body{
     min-width: 50px;
     min-height: 30px;
     display: block;
-    width: 600px;
+    width: 95%;
 }
 
 .anunciar{
@@ -114,17 +138,88 @@ body{
     height: auto;
 }
 
+.icon-bar{
+    margin-top: -10px;
+}
+
+.fas.fa-bars{
+    color: #9518BE;
+}
+
+::placeholder{
+    color:red;
+    opacity: 1;
+}
+
+::-ms-input-placeholder{
+    color:white;
+}
+
 @media screen and (max-width: 768px) {
-    .navbar, .container-fluid,.navbar-nav,.navbar-items,.nav-item,.btn-anuncio,.navbar-brand,.navbar-1,.card.navbar-navigation,.logo{
+    .container-fluid,.container-fluid-1{
         height: auto;
         width: 100%;
-        display: block;
-        float: none;
     }
-    .active-pink input[type=text]{
+    .navbar-navigation{
+        height: auto;
+        width: 100%;
+        border-top: 3px;
+        margin-top: -15px;
+        display: inline-block;
+        padding: none;
+    }
+    .navbar,.navbar-itens{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    } 
+    .col-xl-3,.col-xl-5,.col-xl-2,.col-xl-1,.row{
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        margin: 5px;
+        
+    }
+    .card{
+        width: 100%;
+        height: auto;
+        margin-left: -5px;
+    }
+    .col.mb-4{
+        width: 100%;
+        height: 350px;
+    }
+    .row.row-cols-1.row-cols-md-2{
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .active-pink input[type=text],.fas.fa-search{
         width: auto;
+        font-size: 15px;
     }
-    .navbar-items,.nav-item,.btn-anuncio{
-        margin: 3px;
+    .btn-anuncio{
+        margin-bottom: 3px;
+    }
+    .fas.fa-briefcase,.fas.fa-user{
+        font-size: 20px;
+    }
+    .img-fluid,.navbar-brand{
+        width: 100%;
+        height: auto;
+    }
+    .card-footer{
+        align-items: center;
+        margin-top: -5px;
+    }
+    .card-img-top{
+        max-width: 600px;
+        max-height: 175px;
+        width: 100%;
+        height: auto;
+    }
+    .btn-saibamais{
+        width: 100%;
+        height: auto;
+        margin-top: -3px;
     }
 }
