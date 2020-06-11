@@ -19,6 +19,20 @@ body{
     justify-items: right;
 }
 
+.col{
+    margin-top: 40px;
+    background-color: #676464;
+}
+
+.form-anuncio{
+    font-size: 15px;
+}
+
+.text-muted{
+    color: white !important;
+    font-size: 15px;
+}
+
 .user{
     margin-left: 10px;
     font-size: 20px;
@@ -51,15 +65,9 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .container-fluid{
+    .container-fluid,.user{
         height: auto;
         width: 100%;
-    }
-    .col-xl-3,.col-xl-5,.col-xl-2,.col-xl-1,.row{
-        height: auto;
-        width: 100%;
-        display: inline-block;
-        margin: 5px;
     }
     .fas.fa-user{
         font-size: 20px;

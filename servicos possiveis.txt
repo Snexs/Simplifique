@@ -1,0 +1,46 @@
+Jardineiro
+Pedreiro
+Pintor
+Secretaria do lar
+Mecanico
+Borracheiro
+Sapateiro
+Luthier
+Cozinheiro
+Babá
+Pet Walker
+Personal Shoper
+Motorista
+Mordomo
+Cuidador
+Motoboy
+Professor 
+Corretor De Seguros
+Corretor Imobiliario
+Contador
+Advogado
+Eletricista
+Encanador
+Veterinario
+Marido de aluguel
+Assistencia Tecnica(Informatica,Eletronicos,Eletroportateis)
+Guia Turistico
+Animador de festas
+Musico
+Tradutor
+Maquiadora
+Massagista
+Pedicure
+Manicure
+Esteticista
+Cabelereiro
+Barbeiro
+Padeiro
+Pizzaiolo
+Mestre cervejeiro
+Personal Trainer
+Nutricionista
+Psicologa
+Psiquiatra
+Dentista
+Outros
