@@ -1,0 +1,9 @@
+.p-2{
+    background-color: gray;
+    border-radius: 25px;
+    justify-content: space-around;
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    margin-left: 10x;
+}

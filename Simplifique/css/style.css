@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#878787;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.col-xl-1{
+    margin-top: 13px;
+}
+
+.col-xl-2{
+    margin-top: 6px;
+}
+
+.navbar{
+    background-color: #676464;
+    height: 50px;
+    width: 100%;
+    margin-top: -20px;
+    display: block;
+    float: left;
+    border-style: none;
+    border-radius: none;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.card-footer{
+    align-items: center;
+}
+
+.btn-saibamais{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    margin-left: auto;
+    background-color: #9518BE;
+    color: white;
+}
+
+.row.row-cols-1.row-cols-md-2{
+    justify-content: center;
+}
+
+.container-fluid-1{
+    background-color: #ECF232;
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+}
+
+.navbar-navigation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.card-body{
+    background-color: #878787;
+    color: white;
+}
+
+.form-inline{
+    display: flex;
+    margin-top: 10px;
+    height: auto;
+}
+
+.logo{
+    max-width:250px;
+    max-height: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-brand{
+    max-width: 250px;
+    max-height: 180px;
+    width: 100%;
+    height: auto;
+}
+
+.active-pink input[type=text] {
+    border: 2px solid #9518BE;
+    background-color: #878787;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    max-height: 35px;
+    max-width: 900px;
+    min-width: 50px;
+    min-height: 30px;
+    display: block;
+    width: 95%;
+}
+
+.anunciar{
+    text-align: center;
+    color: white;
+}
+
+.btn-primary{
+    max-width: 150px;
+    min-width: 100px;
+}
+
+.plan{
+    margin-left: 10px;
+    color: black;
+    position: relative;
+}
+
+.btn-anuncio{
+    color: white;
+    background-color: #9518BE;
+    border-style: none;
+    border-radius: 15px;
+    max-width: 160px;
+    max-height: 50px;
+    min-height: 40px;
+    min-width: 120px;
+    height: auto;
+}
+
+.icon-bar{
+    margin-top: -10px;
+}
+
+.fas.fa-bars{
+    color: #9518BE;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid,.container-fluid-1{
+        height: auto;
+        width: 100%;
+    }
+    .navbar-navigation{
+        height: auto;
+        width: 100%;
+        border-top: 3px;
+        margin-top: -15px;
+        display: inline-block;
+        padding: none;
+    }
+    .navbar,.navbar-itens{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    } 
+    .col-xl-3,.col-xl-5,.col-xl-2,.col-xl-1,.row{
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        margin: 5px;
+        
+    }
+    .card{
+        width: 100%;
+        height: auto;
+        margin-left: -5px;
+    }
+    .col.mb-4{
+        width: 100%;
+        height: 350px;
+    }
+    .row.row-cols-1.row-cols-md-2{
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .active-pink input[type=text],.fas.fa-search{
+        width: auto;
+        font-size: 15px;
+    }
+    .btn-anuncio{
+        margin-bottom: 3px;
+    }
+    .fas.fa-briefcase,.fas.fa-user{
+        font-size: 20px;
+    }
+    .img-fluid,.navbar-brand{
+        width: 100%;
+        height: auto;
+    }
+    .card-footer{
+        align-items: center;
+        margin-top: -5px;
+    }
+    .card-img-top{
+        max-width: 600px;
+        max-height: 175px;
+        width: 100%;
+        height: auto;
+    }
+    .btn-saibamais{
+        width: 100%;
+        height: auto;
+        margin-top: -3px;
+    }
+    .box{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        position: absolute;
+      }
+}
+
+@media screen and (max-width: 1200px){
+    .box{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,30%);
+        position: absolute;
+      }
+}
+
+@media screen and (max-width: 400px){
+    .box{
+        width: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,00%);
+        position: absolute;
+      }
+}
