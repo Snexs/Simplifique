@@ -1,3 +1,19 @@
+------------------------------------------------
+-----------------Categorias---------------------
+=Casa
+=Automovel
+=Beleza
+=Comida
+=Limpeza
+=Serviços Técnicos
+=Saúde
+=Direitos
+=Musica
+=Animais
+------------------------------------------------
+------------------------------------------------
+Serviços possiveis a implementação a solução
+
 Jardineiro
 Pedreiro
 Pintor

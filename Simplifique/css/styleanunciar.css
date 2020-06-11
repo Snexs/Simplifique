@@ -1,3 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 40px auto 0;
+  margin-left: -30px;
+}
+
+.wrapper .title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: -100px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .option_item {
+  display: block;
+  position: relative;
+  width: 175px;
+  height: 175px;
+  margin: 10px;
+}
+
+.container .option_item .checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.option_item .option_inner {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 58px 40px;
+  cursor: pointer;
+  color: #585c68;
+  display: block;
+  border: 5px solid transparent;
+  position: relative;
+}
+
+.option_item .option_inner .icon {
+  margin-bottom: 10px;
+}
+
+.option_item .option_inner .icon .fab {
+  font-size: 32px;
+}
+
+.option_item .option_inner .name {
+  user-select: none;
+}
+
+.option_item .checkbox:checked ~ .option_inner.casa {
+  border-color: #104911;
+  color: #104911;
+}
+
+.option_item .checkbox:checked ~ .option_inner.automovel {
+  border-color: #433A37;
+  color: #433A37;
+}
+
+.option_item .checkbox:checked ~ .option_inner.beleza {
+  border-color: #F67987;
+  color: #F67987;
+}
+
+.option_item .checkbox:checked ~ .option_inner.comida {
+  border-color: #EAC234;
+  color: #EAC234;
+}
+
+.option_item .checkbox:checked ~ .option_inner.limpeza {
+  border-color: #25d366;
+  color: #25d366;
+}
+
+.option_item .checkbox:checked ~ .option_inner.services {
+  border-color: #111D4A;
+  color: #111D4A;
+}
+
+.option_item .checkbox:checked ~ .option_inner.saude {
+  border-color: #ED2A1D;
+  color: #ED2A1D;
+}
+
+.option_item .checkbox:checked ~ .option_inner.direitos {
+  border-color: #4E1841;
+  color: #4E1841;
+}
+
+.option_item .checkbox:checked ~ .option_inner.animal {
+    border-color: #7F3A17;
+    color: #7F3A17;
+}
+
+  .option_item .checkbox:checked ~ .option_inner.music {
+    border-color: #61e8e1;
+    color: #61e8e1;
+}
+
+.option_item .option_inner .tickmark {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border: 20px solid;
+  border-color: #000 transparent transparent #000;
+  display: none;
+}
+
+.option_item .option_inner .tickmark:before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  width: 15px;
+  height: 5px;
+  border: 3px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+}
+
+.option_item .checkbox:checked ~ .option_inner .tickmark {
+  display: block;
+}
+
+.option_item .option_inner.casa .tickmark {
+  border-color: #104911 transparent transparent #104911;
+}
+
+.option_item .option_inner.automovel .tickmark {
+  border-color: #433A37 transparent transparent #433A37;
+}
+
+.option_item .option_inner.beleza .tickmark {
+  border-color: #F67987 transparent transparent #F67987;
+}
+
+.option_item .option_inner.comida .tickmark {
+  border-color: #EAC234 transparent transparent #EAC234;
+}
+
+.option_item .option_inner.limpeza .tickmark {
+  border-color: #25d366 transparent transparent #25d366;
+}
+
+.option_item .option_inner.services .tickmark {
+  border-color: #111D4A transparent transparent #111D4A;
+}
+
+.option_item .option_inner.saude .tickmark {
+  border-color: #ED2A1D transparent transparent #ED2A1D;
+}
+
+.option_item .option_inner.direitos .tickmark {
+  border-color: #4E1841 transparent transparent #4E1841;
+}
+
+.option_item .option_inner.animal .tickmark {
+    border-color: #7F3A17 transparent transparent #7F3A17;
+}
+
+  .option_item .option_inner.music .tickmark {
+    border-color: #61e8e1 transparent transparent #61e8e1;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -50,6 +241,44 @@ body{
     justify-content: center;
 }
 
+.title{
+    margin-top: 15px;
+    color: white;
+}
+
+.descricao{
+    color: white;
+    margin-top: 10px;
+}
+
+.valor{
+    color: white;
+}
+
+.col-lg-6{
+    margin: 10px;
+}
+
+.celular{
+    color: white;
+}
+
+.contato{
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    color: black;
+    border-style: solid;
+    border-color: #ECF232;
+}
+
+.form-control{
+    border-style: solid;
+    border-color: #ECF232;
+    border-radius: 5px;
+}
+
 .navbar-brand{
     max-width: 250px;
     max-height: 180px;
@@ -62,6 +291,16 @@ body{
     max-height: 50px;
     width: 100%;
     height: auto;
+}
+
+.form-valor{
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    color: black;
+    border-style: solid;
+    border-color: #ECF232;
 }
 
 @media screen and (max-width: 768px) {
