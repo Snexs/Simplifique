@@ -25,3 +25,8 @@ Dicas do professor
 primeiro menu fazer com row e col
 procurar na documentacao do bootstrap4 cards para os anuncios
 Agilizar na criacao das paginas
+------------------------------------------------------------------------------------------------------------------------
+Atualizar cor do valor do anuncio e trocar fontes no site
+fazer o botao anunciar ter uma ação
+adicionar responsabilidade(responsive) a pagina de anunciar e revisar a pagina login
+Fazer um ajuste de escala de cores landing page
