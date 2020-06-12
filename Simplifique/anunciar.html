@@ -36,7 +36,7 @@
                 <div class="col">
                   <form class="form-anuncio"> 
                         <label for="title" class="title">Titulo:</label>
-                            <input type="text" id="title" class="form-control" placeholder="Insira seu titulo...">
+                            <input type="text" id="title" class="form-control" placeholder="Insira seu titulo..." required>
                             <small id="tituloHelper" class="form-text text-muted">
                               Seu titulo nao pode ser maior que 50 caracteres.
                             </small>
@@ -48,11 +48,11 @@
                             </div>
                       </div>
                       <div class="wrapper">
-                        <div class="title">
+                        <div class="title" required>
                           Selecione a categoria mais próxima ao serviço prestado:
                         </div>
                         <!--iNICIO CATEGORIAS-->
-                        <div class="container">
+                        <div class="container" >
                           <label class="option_item">
                             <input type="checkbox" class="checkbox">
                             <div class="option_inner casa">
@@ -138,13 +138,16 @@
                       <!--FINAL CATEGORIAS-->
                       <div class="col-lg-6">
                       <label for="valor" class="valor">Valor:</label>
-                        <input type="number" id="title" class="form-valor" placeholder="  Insira o preço...">
+                        <input type="number" id="title" class="form-valor" placeholder="  Insira o preço..." required>
                       </div>
                       <div class="col-lg-6">
-                        <label for="phone" class="celular">Insira um numero para contato:</label>
-                          <input type="tel" class="contato" id="phone" name="phone" placeholder="Formato:(xx)xxxxx-xxxx" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+                        <label for="phone" class="celular">Insira um número para contato:</label>
+                          <input type="tel" class="contato" id="phone" name="phone" placeholder=" Formato:(xx)xxxxx-xxxx" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" required>
                       </div>
-                 </form>
+                      <div class="col-lg-6">
+                        <button type="submit" class="btn-enviar">Finalizar</button>
+                      </div>
+                    </form>
                 </div>
             </div>
         </div>

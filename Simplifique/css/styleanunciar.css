@@ -252,10 +252,12 @@ body{
 }
 
 .valor{
+  margin-top: 15px;
     color: white;
 }
 
 .col-lg-6{
+    margin-top: 35px;
     margin: 10px;
 }
 
@@ -301,6 +303,15 @@ body{
     color: black;
     border-style: solid;
     border-color: #ECF232;
+}
+
+.btn-enviar{
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: #9518BE;
 }
 
 @media screen and (max-width: 768px) {
