@@ -1,0 +1,28 @@
+Pagina de cadastro CONTRATANTE
+----------------------------------------------------------
+NOME COMPLETO**
+CPF/CNPJ**
+DATA DE NASCIMENTO
+TELEFONE
+CELULAR**
+EMAIL**
+ENDEREÇO**
+COMPLEMENTO
+CEP**
+SENHA**
+----------------------------------------------------------
+OPÇÃO PRESTADOR OU CONTRATANTE
+----------------------------------------------------------
+Pagina de cadastro PRESTADOR
+----------------------------------------------------------
+NOME COMPLETO**
+CPF/CNPJ**
+DATA DE NASCIMENTO
+TELEFONE
+CELULAR**
+EMAIL**
+ENDEREÇO**
+COMPLEMENTO
+CEP**
+SENHA**
+CATEGORIA DO SERVIÇO**

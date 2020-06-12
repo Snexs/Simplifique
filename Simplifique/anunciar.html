@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta lang="pt-br">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no" />
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  	  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -34,7 +34,120 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-
+                  <form class="form-anuncio"> 
+                        <label for="title" class="title">Titulo:</label>
+                            <input type="text" id="title" class="form-control" placeholder="Insira seu titulo..." required>
+                            <small id="tituloHelper" class="form-text text-muted">
+                              Seu titulo nao pode ser maior que 50 caracteres.
+                            </small>
+                      <div class="mb-3">
+                        <label for="validationTextarea" class="descricao">Descrição:</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Adicione aqui descrição ao seu anúncio." required></textarea>
+                            <div class="invalid-feedback">
+                                É necessário adicionar descrição ao seu anúncio.
+                            </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="title" required>
+                          Selecione a categoria mais próxima ao serviço prestado:
+                        </div>
+                        <!--iNICIO CATEGORIAS-->
+                        <div class="container" >
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner casa">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-home"></i></div>
+                              <div class="name">Casa</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner automovel">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-car-side"></i></div>
+                              <div class="name">Automovel</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner beleza">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-shopping-bag"></i></div>
+                              <div class="name">Beleza</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner comida">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-utensils"></i></div>
+                              <div class="name">Comida</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner limpeza">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-broom"></i></div>
+                              <div class="name">Limpeza</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner services">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-tools"></i></div>
+                              <div class="name">Serviços Ténicos</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner saude">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                              <div class="name">Saúde</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner direitos">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-suitcase"></i></div>
+                              <div class="name">Direitos</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner music">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-music"></i></div>
+                              <div class="name">Música</div>
+                            </div>
+                          </label>
+                          <label class="option_item">
+                            <input type="checkbox" class="checkbox">
+                            <div class="option_inner animal">
+                              <div class="tickmark"></div>
+                              <div class="icon"><i class="fas fa-paw"></i></div>
+                              <div class="name">Animal</div>
+                            </div>
+                          </label>
+                        </div>
+                      </div>
+                      <!--FINAL CATEGORIAS-->
+                      <div class="col-lg-6">
+                      <label for="valor" class="valor">Valor:</label>
+                        <input type="number" id="title" class="form-valor" placeholder="  Insira o preço..." required>
+                      </div>
+                      <div class="col-lg-6">
+                        <label for="phone" class="celular">Insira um número para contato:</label>
+                          <input type="tel" class="contato" id="phone" name="phone" placeholder=" Formato:(xx)xxxxx-xxxx" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" required>
+                      </div>
+                      <div class="col-lg-6">
+                        <button type="submit" class="btn-enviar">Finalizar</button>
+                      </div>
+                    </form>
                 </div>
             </div>
         </div>

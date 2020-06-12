@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <meta lang="pt-br">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <!-- <link rel="stylesheet" type="text/css" href="css/styleplan.css" /> -->
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
@@ -15,34 +13,114 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/styleregister.css" />
     </head>
 <body>
     <header>
         <!--Menu Navbar-->
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <a class="navbar-brand" href="landingpage.html">Logo</a>
+        <div class="container-fluid-1">
+            <div class="row">
+                <div class="col-xl-3">
+                    <a class="navbar-brand" href="landingpage.html"><img class="img-fluid" src="img/logo.png"></a>
+                </div>
+                <div class="col-xl-5">
                     <form class="form-inline active-pink">
                         <i class="fas fa-search" aria-hidden="true"></i>
-                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        <input class="form-control" type="text" placeholder="Pesquisar...">
                     </form>
-                </ul>
-                <ul class="navbar-items">
-                    <li class="nav-item"> 
-                        <i class="fas fa-briefcase fa-2x"></i><a class="plan" href="#">Planos</a> 
-                    </li>
-                    <li class="nav-item">
-                        <i class="far fa-user fa-2x"></i><a class="plan" href="login.html">Entrar</a> 
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn-anuncio"><a class="anunciar" href="anunciar.html"> Anunciar</a></button>
-                    </li>
-                </ul>
-            </div>    
-        </nav>
+                </div>
+                <div class="col-xl-1">
+                    <a class="plan" href="login.html" role="button"><i class="fas fa-user fa-2x"></i>Entrar</a> 
+                </div>
+                <div class="col-xl-1">
+                    <a class="plan" href="planos.html" role="button"><i class="fas fa-briefcase fa-2x"></i>Planos</a> 
+                </div>
+                <div class="col-xl-2">
+                  <a class="btn anunciar" href="anunciar.html" role="button">Anunciar</a>
+                </div>
+            </div>
+        </div>
         <!--Menu Navbar-->
     </header>
-        
+    <section class="testimonial py-5" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 py-5">
+                 <div class="card-bodys">
+                        <img src="http://www.ansonika.com/mavia/img/registration_bg.svg" style="width:40%">
+                        <h2 class="py-3">Registration</h2>
+                        <p>O motivo ao qual pedimos todos estes dados é para a sua segurança!</p>
+                        <p>Com estes dados podemos trazer melhores formas de contratar e trabalhar.</p>  
+                        <p>De modo que o cliente esteja sempre em primeiro lugar!</p>
+                    </div>
+            </div>
+            <div class="col-md-8 py-5">
+                <h4 class="pb-4">Preencha esse formulário para cadastrar-se</h4>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <input id="Full Name" name="Full Name" placeholder="Nome Completo" class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="Senha" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="Confirme Sua Senha" class="form-control" required="required" type="text">
+                        </div>
+                      </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input id="Mobile No." name="Mobile No." placeholder="Celular" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="CPF/CNPJ" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="CEP" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="Endereço" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="Numero" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="CPF/CNPJ" name="CPF/CNPJ" placeholder="Complemento" class="form-control" required="required" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                                  
+                                  <select id="inputState" class="form-control">
+                                    <option selected>Escolha ...</option>
+                                    <option> Eu quero contratar</option>
+                                    <option> Eu quero trabalhar</option>
+                                  </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                  <label class="form-check-label" for="invalidCheck2">
+                                    <small>Clicando em enviar, você aceita nossos Termos & Condições,e termo de Politica de Privacidade.</small>
+                                  </label>
+                                </div>
+                              </div>
+                    
+                          </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <button type="button" class="btn btn-enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
     </body>
 </html>

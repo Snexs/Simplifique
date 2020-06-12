@@ -1,9 +1,47 @@
-.p-2{
-    background-color: gray;
-    border-radius: 25px;
+.row.row-cols-2.row-cols-md-3{
+    justify-content: center;
+}
+
+.col.mb-5{
+    width: 100%;
+    height: 350px;
+}
+
+.card-1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.container{
+    box-sizing: none;
+    width: 1080px;
     justify-content: space-around;
-    text-align: center;
-    width: 900px;
-    height: 600px;
-    margin-left: 10x;
+    align-items:center;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    padding: 0;
+}
+
+.card-footer-1{
+    align-items: center;
+}
+
+.card-body{
+    background-color: #878787;
+    color: white;
+}
+
+.card-img-top{
+    max-width: 600px;
+    max-height: 175px;
+    width: 100%;
+    height: auto;
 }
