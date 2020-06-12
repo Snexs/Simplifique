@@ -1,17 +1,9 @@
 ------------------------------------------------------------------------------------------------------------
-Configurar os cards resposivos
-Imagens responsivas nos card
-Ajustar os menus para ser 100% responsivo
 Ajustar cores das letras dos menus
-Ajustar SearchBar
-Ajustar Responsabilidade dos anuncios
-Centralizar botao do card anuncio
-Atualizar tudo pra bootstrap
 Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao para abrir)
 
----------------------------------------------------------------------------------------------------------
-Desenvolver Logo--Meio caminho
-Desenvolver pagina de login
+------------------------------------------------------------------------------------------------------------
+Desenvolver Logo  (Meio caminho)
 Desenvolver pagina de cadastro
 Desenvolver pagina de cadastro fornecedor**
 Desenvolver pagina de como funciona
@@ -20,13 +12,9 @@ Desenvolver pagina de Meus anuncios
 Desenvolver pagina de Regioes
 Desenvolver pagina de Seguranca
 Desenvolver pagina de Sobre nós
+Desenvolver pagina de descricao do anuncio
 ------------------------------------------------------------------------------------------------------------
-Dicas do professor
-primeiro menu fazer com row e col
-procurar na documentacao do bootstrap4 cards para os anuncios
-Agilizar na criacao das paginas
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------Fix para desenvolver----------------------------------------------
 Atualizar cor do valor do anuncio e trocar fontes no site
-fazer o botao anunciar ter uma ação
-adicionar responsabilidade(responsive) a pagina de anunciar e revisar a pagina login
+adicionar responsabilidade(responsive) da pagina anunciar
 Fazer um ajuste de escala de cores landing page
