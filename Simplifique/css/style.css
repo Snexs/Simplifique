@@ -112,9 +112,18 @@ body{
     width: 95%;
 }
 
-.anunciar{
-    text-align: center;
+.btn.anunciar {
     color: white;
+    background-color: #9518BE;
+    border-style: none;
+    border-radius: 15px;
+    max-width: 160px;
+    max-height: 50px;
+    min-height: 40px;
+    min-width: 120px;
+    height: auto;
+    margin-top: 3px;
+    padding-top: 10px;
 }
 
 .btn-primary{
@@ -128,21 +137,20 @@ body{
     position: relative;
 }
 
-.btn-anuncio{
-    color: white;
-    background-color: #9518BE;
-    border-style: none;
-    border-radius: 15px;
-    max-width: 160px;
-    max-height: 50px;
-    min-height: 40px;
-    min-width: 120px;
-    height: auto;
-}
-
 .icon-bar{
     margin-top: -10px;
 }
+
+.fas.fa-user{
+    color: black;
+    margin-right: 5px;
+}
+
+.fas.fa-briefcase{
+    color: black;
+    margin-right: 5px;
+}
+
 
 .fas.fa-bars{
     color: #9518BE;
