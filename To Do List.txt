@@ -4,12 +4,11 @@ trocar fontes no site
 Fazer um ajuste de escala de cores landing page
 Ajustar cores das letras dos menus
 Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao para abrir)
-
+Adicinar Javascript em algumas partes do codigo para algumas animações
 ------------------------------------------------------------------------------------------------------------
 Desenvolver Logo  (Meio caminho)
 Desenvolver pagina de como funciona
 Desenvolver pagina de forma de pagamento
-Desenvolver pagina de Meus anuncios
 Desenvolver pagina de Segurança
 Desenvolver pagina de descricao do anuncio
 ------------------------------------------------------------------------------------------------------------
