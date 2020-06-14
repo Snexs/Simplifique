@@ -1,0 +1,35 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.botao{
+    float: right;
+}
+
+.btn-saibamaiss{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    float: right;
+    background-color: #9518BE;
+    color: white;
+}
+
+.card-group-item{
+    width: 100%;
+    height: auto;
+}
+
+.form-check-label{
+    margin-left: 15px;
+}
+
+.card-img-top{
+    max-width: 300px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+}
