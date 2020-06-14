@@ -232,6 +232,10 @@ body{
       }
 }
 
+.valor{
+    color: black;
+}
+
 @media screen and (max-width: 1200px){
     .box{
         top: 50%;
