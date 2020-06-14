@@ -10,7 +10,6 @@ Desenvolver Logo  (Meio caminho)
 Desenvolver pagina de como funciona
 Desenvolver pagina de forma de pagamento
 Desenvolver pagina de Meus anuncios
-Desenvolver pagina de Seguranca
-Desenvolver pagina de Sobre nós
+Desenvolver pagina de Segurança
 Desenvolver pagina de descricao do anuncio
 ------------------------------------------------------------------------------------------------------------
