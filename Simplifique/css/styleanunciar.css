@@ -314,10 +314,33 @@ body{
   background-color: #9518BE;
 }
 
+.titles{
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  margin-top: -15px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:1200px){
+  .wrapper{
+    height: auto;
+    width: 100%;
+    margin-left: 35px;
+    align-items: center;
+  }
+  .titles{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-    .container-fluid,.user{
+    .container-fluid,.user,.container{
         height: auto;
         width: 100%;
+        margin-left: 15px;
     }
     .fas.fa-user{
         font-size: 20px;
@@ -325,5 +348,13 @@ body{
     .img-fluid{
         width: 100%;
         height: auto;
+     }
+     .wrapper{
+       height: auto;
+       width: 100%;
+       margin-left: -10px;
+     }
+     .titles{
+       font-size: 20px;
      }
 }
