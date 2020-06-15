@@ -1,0 +1,47 @@
+body{
+    background-color: #073b4c;
+}
+
+.howworks{
+    margin-top: 15px;
+}
+
+.howworks-text{
+    font-size: 20px;
+    color: #02c39a;
+}
+
+.howworks-title{
+    font-size: 35px;
+    color: white;
+}
+
+h4{
+    font-size: 25px;
+    color: white;
+}
+
+.fa-search{
+    color: black;
+}
+
+.fa-clipboard-list{
+    color: black;
+}
+
+.fa-credit-card{
+    color: black;
+}
+
+.fa-sms{
+    color: black;
+}
+
+.fa-star{
+    color: black;
+}
+
+.card-img-top{
+    width: 90%;
+    height: auto;
+}

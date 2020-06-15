@@ -74,7 +74,7 @@ body{
 }
 
 .card-body{
-    background-color: #878787;
+    background-color: #676464;
     color: white;
 }
 
@@ -212,6 +212,7 @@ body{
         align-items: center;
         margin-top: -5px;
     }
+    
     .card-img-top{
         max-width: 600px;
         max-height: 175px;
@@ -229,6 +230,10 @@ body{
         transform: translate(-50%,50%);
         position: absolute;
       }
+}
+
+.valor{
+    color: #02c39a;
 }
 
 @media screen and (max-width: 1200px){

@@ -1,20 +1,14 @@
 ------------------------------------------------------------------------------------------------------------
+------------------------------------------Fix para desenvolver----------------------------------------------
+trocar fontes no site
+Fazer um ajuste de escala de cores landing page
 Ajustar cores das letras dos menus
 Adicionar Javascript para o searchbox(para quando ficar pequeno tenha a opcao para abrir)
-
+Adicinar Javascript em algumas partes do codigo para algumas animações
 ------------------------------------------------------------------------------------------------------------
 Desenvolver Logo  (Meio caminho)
-Desenvolver pagina de cadastro
-Desenvolver pagina de cadastro fornecedor**
 Desenvolver pagina de como funciona
 Desenvolver pagina de forma de pagamento
-Desenvolver pagina de Meus anuncios
-Desenvolver pagina de Regioes
-Desenvolver pagina de Seguranca
-Desenvolver pagina de Sobre nós
-Desenvolver pagina de descricao do anuncio
+Desenvolver pagina de Segurança
 ------------------------------------------------------------------------------------------------------------
-------------------------------------------Fix para desenvolver----------------------------------------------
-Atualizar cor do valor do anuncio e trocar fontes no site
-adicionar responsabilidade(responsive) da pagina anunciar
-Fazer um ajuste de escala de cores landing page
+https://tasks.office.com/uniopet.edu.br/pt-BR/Home/Planner/#/plantaskboard?groupId=8ebdc113-40c4-46de-b78c-a3f1e8d188cd&planId=qt_LBqIsXk6NZaatQY7S4GUAHx_w

@@ -1,0 +1,76 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.botao{
+    float: right;
+}
+
+.btn-saibamaiss{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    float: right;
+    background-color: #9518BE;
+    color: white;
+}
+
+.btn-destacar{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    float: right;
+    background-color: #E0E000;
+    color: white;
+}
+
+.btn-editar{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    float: right;
+    background-color: #19254D;
+    color: white;
+}
+
+.btn-remover{
+    border-radius: 15px;
+    border-style: none;
+    width: 130px;
+    height: 30px;
+    float: right;
+    background-color: #F50021;
+    color: white;
+}
+
+.card-group-item{
+    width: 100%;
+    height: auto;
+}
+
+.form-check-label{
+    margin-left: 15px;
+}
+
+.card-img-top{
+    max-width: 300px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body{
+    height: 200px;
+}
+
+.row-1{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: -50px;
+}
