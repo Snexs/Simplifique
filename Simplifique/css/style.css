@@ -74,7 +74,7 @@ body{
 }
 
 .card-body{
-    background-color: #878787;
+    background-color: #676464;
     color: white;
 }
 
@@ -233,7 +233,7 @@ body{
 }
 
 .valor{
-    color: black;
+    color: #02c39a;
 }
 
 @media screen and (max-width: 1200px){
