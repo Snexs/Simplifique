@@ -1,0 +1,22 @@
+body{
+    background-color: #776F69;
+}
+
+.security{
+    margin-top: 15px;
+}
+
+.security-text{
+    font-size: 20px;
+    color: #61FAEB;
+}
+
+.security-title{
+    font-size: 35px;
+    color: white;
+}
+
+.card-img-top{
+    width: 90%;
+    height: auto;
+}
