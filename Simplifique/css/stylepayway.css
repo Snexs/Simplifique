@@ -1,0 +1,45 @@
+body{
+    background-color: #173E64;
+}
+
+.payway{
+    margin-top: 15px;
+}
+
+.payway-text{
+    font-size: 20px;
+    color: #55C1FF;
+    /* color: #02c39a; */
+}
+
+.payway-title{
+    font-size: 35px;
+    color: #D6E2FF;
+}
+
+.payway-titles{
+    font-size: 25px;
+    color: #D6E2FF;
+}
+
+h4{
+    font-size: 25px;
+    color: white;
+}
+
+.card-img-top{
+    width: 90%;
+    height: auto;
+}
+
+.feature{
+    margin-top: 10px;
+}
+
+.feature-content{
+    margin: 20px;
+}
+
+i{
+    color: #D6E2FF;
+}
