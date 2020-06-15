@@ -1,0 +1,76 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 5px;
+  font-size: 2em;
+  font-family: FontAwesome;
+}
+
+.starrating > label
+{
+  color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+
+.carousel-item{
+    max-width: 1280px;
+    max-height: 500px;
+    height: auto;
+}
+
+.d-block.w-100{
+    max-width: 1280px;
+    max-height: 500px;
+    height: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.col-lg-3{
+    margin-top: 15px;
+}
+
+.valor{
+    color: white;
+    width: 50%;
+}
+
+.text-mute{
+    color: white;
+}
+
+.card{
+    width: 100%;
+    margin-left: 0px;
+    background-color: #F7F7FF;
+}
+
+.card-body{
+    background-color: #3A4C55;
+}
+
+.titulo{
+    font-size: 20px;
+    color: #F7F7FF;
+}
+
+
+.titulos{
+    font-size: 20px;
+    color: #F7F7FF;
+}
