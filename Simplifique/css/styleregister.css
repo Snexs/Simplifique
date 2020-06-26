@@ -6,7 +6,7 @@ img {width:100%;}
 }
 
 .col-md-4.py-5{
-    background-color: #00B881;
+    background-color: #115A87;
     color: white;
     text-align: center;
 }
@@ -17,19 +17,18 @@ img {width:100%;}
 }
 
 .col-md-8.py-5{
-    border-radius: 5px;
     border-style: solid;
-    border-color: #00B881;
-    background-color: #3d3d3d;
+    border-color: #115A87;
+    background-color: #E8E8E8;
 }
 
 .form-check-label{
     margin-top: 4px;
     margin-left: 15px;
-    color: white;
+    color: black;
 }
 
 .btn.btn-enviar{
-    background-color: #9518be;
+    background-color: #E58A36;
     color: white;
 }
