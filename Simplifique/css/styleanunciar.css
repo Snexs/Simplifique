@@ -7,10 +7,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background: #585c68;
-}
-
 .wrapper {
   width: 1280px;
   margin: 40px auto 0;
@@ -56,7 +52,7 @@ body {
   text-align: center;
   padding: 58px 40px;
   cursor: pointer;
-  color: #585c68;
+  color: #000000;
   display: block;
   border: 5px solid transparent;
   position: relative;
@@ -192,7 +188,7 @@ body {
 body{
     margin: 0;
     padding: 0;
-    background-color:#878787;
+    background-color:#E8E8E8;
 }
 
 .row{
@@ -212,7 +208,7 @@ body{
 
 .col{
     margin-top: 40px;
-    background-color: #676464;
+    background-color: #124675;
 }
 
 .form-anuncio{
@@ -235,7 +231,7 @@ body{
 }
 
 .container-fluid{
-    background-color: #ECF232;
+    background-color: white;
     display: flex;
     min-height: 100px;
     justify-content: center;
@@ -244,6 +240,7 @@ body{
 .title{
     margin-top: 15px;
     color: white;
+    font-size: 18px;
 }
 
 .descricao{
@@ -272,13 +269,15 @@ body{
     height: 30px;
     color: black;
     border-style: solid;
-    border-color: #ECF232;
+    border-color: #E58A36;
 }
 
 .form-control{
+    height: 30px;
+    font-size: 15px;
     border-style: solid;
-    border-color: #ECF232;
-    border-radius: 5px;
+    border-color: #E58A36;
+    border-radius: 15px;
 }
 
 .navbar-brand{
@@ -302,7 +301,7 @@ body{
     height: 30px;
     color: black;
     border-style: solid;
-    border-color: #ECF232;
+    border-color: #E58A36;
 }
 
 .btn-enviar{
@@ -311,7 +310,7 @@ body{
   border-radius: 10px;
   border-style: none;
   color: white;
-  background-color: #9518BE;
+  background-color: #E58A36;
 }
 
 .titles{

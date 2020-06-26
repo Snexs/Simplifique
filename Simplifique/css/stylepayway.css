@@ -1,30 +1,25 @@
-body{
-    background-color: #173E64;
-}
-
 .payway{
     margin-top: 15px;
 }
 
 .payway-text{
     font-size: 20px;
-    color: #55C1FF;
-    /* color: #02c39a; */
+    color: #133163;
 }
 
 .payway-title{
     font-size: 35px;
-    color: #D6E2FF;
+    color: #E58A36;
 }
 
 .payway-titles{
     font-size: 25px;
-    color: #D6E2FF;
+    color: #E58A36;
 }
 
 h4{
     font-size: 25px;
-    color: white;
+    color: #0E83AA;
 }
 
 .card-img-top{
@@ -41,5 +36,5 @@ h4{
 }
 
 i{
-    color: #D6E2FF;
+    color: #0E83AA;
 }
